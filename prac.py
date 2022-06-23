@@ -1,6 +1,3 @@
-distance = 0
-
-for i in range(30):
-    distance = distance + 3 - 2
-
-print(distance)
+skills = {"Python", "HTML", "SQL", "C++", "Java", "Scala"}
+job_skills = {"HTML", "CSS", "JS", "C#", "NodeJS"}
+print(job_skills & skills)
